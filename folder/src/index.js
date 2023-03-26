@@ -1,9 +1,8 @@
-import {checkUrl} from './checkUrl'
-import { en, es, fr, ja, nl, ru, zh, getLangObject } from './getLang'
+import {checkUrl} from './checkUrl';
+import { en, getLangObject } from './getLang';
 import './styles.css';
 
-const showCurrentObj = () => getLangObject(checkUrl());
-const LANG = showCurrentObj();
+const LANG = getLangObject(checkUrl()) || en;
 const URLARRAY = ['', 'https://apple.com/ ', 'https://google.com/ '];
 let currentID = 0;
 

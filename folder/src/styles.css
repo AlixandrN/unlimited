@@ -29,12 +29,12 @@ main {
 }
 
 header {
-  margin-top: 65px;
-  margin-bottom: 157px;
+  min-height: calc(100vh - 595px);
+  padding-top: calc(100vh*0.0554);
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   font-size: 13px;
   letter-spacing: -0.22px;
   color: rgba(255, 255, 255, 0.6);
