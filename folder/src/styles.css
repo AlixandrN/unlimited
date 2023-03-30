@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(./assets/girl1125-2436.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0 20px;
+}
+
+main {
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  min-height: calc(100vh - 595px);
+  padding-top: calc(100vh*0.0554);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  font-size: 13px;
+  letter-spacing: -0.22px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tik { margin-left: 4.03px;}
+.header-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 41px;
+  letter-spacing: -0.22px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 42.19px;
+  text-align: center;
+}
+
+#content {
+  margin-bottom: 23px;
+  font-family: 'SF Pro Text', sans-serif;
+}
+
+.content_item {
+  font-size: 17px;
+  line-height: 30.48px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 208.5px;
+}
+
+.item1_text {
+  margin-left: 7.33px;
+  line-height: 16.48px;
+}
+.item2_text {
+  margin-left: 11.99px;
+  line-height: 16.48px;
+}
+.item3_text {
+  margin-left: 9.5px;
+  line-height: 16.48px;
+}
+
+.sub {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+}
+
+.wrap {
+  position: relative;
+  width: 131px;
+  height: 162px;
+  color: #ffffff;
+  /* overflow: hidden; */
+}
+
+.active {
+  transform: scale(1.1);
+}
+.active .e1 {
+  background: radial-gradient(
+    circle at 130px 0px,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40px,
+    rgba(73, 87, 149, 0.5) 70px
+  );
+}
+.active .red-ball {
+  background-color: rgba(219, 0, 0, 1);
+}
+.active .sub-1-content {
+  background: radial-gradient(
+    circle at 130px 0px,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40px,
+    rgba(73, 87, 149, 0.5) 70px
+  );
+}
+
+.wrap:hover {
+  transform: scale(1.1);
+}
+
+.wrap:hover .e1 {
+  background: radial-gradient(
+    circle at 130px 0px,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40px,
+    rgba(73, 87, 149, 0.5) 70px
+  );
+}
+
+.wrap:hover .sub-1-content {
+  background: radial-gradient(
+    circle at 130px 0px,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40px,
+    rgba(73, 87, 149, 0.5) 70px
+  );
+}
+
+.wrap:hover .red-ball {
+  background-color: rgba(219, 0, 0, 1);
+}
+
+.sub-1-content {
+  border: 1px solid #1987ff;
+  border-radius: 20.9px;
+  width: 131px;
+  height: 162px;
+  position: absolute;
+  background: radial-gradient(
+    circle at 130px 0px,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40px,
+    rgba(73, 87, 149, 0.1) 70px
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: 17px;
+  line-height: 19.92px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.sub-title {
+  margin-top: 23px;
+}
+.sub-big-price {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  line-height: 15px;
+}
+
+.sub-big-price-top {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.sub-big-price-bottom {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sub-widget {
+  width: 137px;
+  height: 20px;
+  background-color: #495795;
+  margin-top: 7px;
+  padding-top: 2px;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-align: center;
+}
+
+.sub-small-price {
+  margin-top: 11px;
+  font-size: 12px;
+  line-height: 14.06px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.e1 {
+  border: 1px solid #1987ff;
+  border-radius: 20.9px;
+  width: 131px;
+  height: 162px;
+  position: absolute;
+  background: radial-gradient(
+    circle at 130px 0px,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40px,
+    rgba(73, 87, 149, 0.1) 70px
+  );
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: 17px;
+  line-height: 19.92px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.e1::before {
+  content: "";
+  width: 91px;
+  height: 0.2px;
+  background-color: #1987ff;
+  position: absolute;
+  right: 24px;
+  top: 0px;
+}
+
+.e1::after {
+  content: "";
+  width: 0.2px;
+  height: 121px;
+  background-color: #1987ff;
+  position: absolute;
+  right: 0px;
+  top: 24px;
+}
+
+.e2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: inherit;
+  border: 1px solid #1987ff;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.red-ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(219, 0, 0, 0.5);
+  right: 0px;
+  top: 0px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  margin-top: auto;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-primary {
+  margin-top: 24px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 17px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    rgba(25, 204, 255, 1),
+    rgba(25, 135, 255, 1)
+  );
+  width: 280px;
+  height: 54px;
+  transition: 0.3s linear;
+  color: #ffffff;
+}
+
+.cancel {
+  margin: 16px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  opacity: 49.54%;
+  color: #ffffff;
+}
+
+.footer {
+  margin: 0 4px 27px 7px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #BDC0D0;
+}
+
+.home-indicator {
+  margin-bottom: 6px;
+  width: 134px;
+  height: 5px;
+  background: #FFFFFF;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 375px) {
+  body {background-image: url(./assets/girl.png);}
+}
